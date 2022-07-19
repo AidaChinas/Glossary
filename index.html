@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset=utf-8>
+    <title>Glossary</title>
+</head>
+
+<body>
+    <h1>&hearts; Headings &hearts;</h1>
+    <h1>This is the Main Heading</h1>
+    <p>There are different size of headings starting with the &lsaquo;H1&rsaquo; and &lsaquo;/H1&rsaquo; (the one above)
+    </p>
+
+    <h2>This is a Sub-Heading</h2>
+    <p>As you can see this is a bit smaller than the previous one. This is the &lsaquo;H2&rsaquo; and
+        &lsaquo;/H2&rsaquo;
+    </p>
+
+    <h3>Another Sub-Heading</h3>
+    <p>And we can go on with the number they'll get smaller each time. Here I'm using &lsaquo;H3&rsaquo; and
+        &lsaquo;/H3&rsaquo;</p>
+
+    <h4>Another Sub-Heading</h4>
+    <p>Here I'm using &lsaquo;H4&rsaquo; and &lsaquo;/H4&rsaquo;</p>
+
+    <h5>This is the level 5</h5>
+    <p>I'm using &lsaquo;H5&rsaquo; and &lsaquo;/H5&rsaquo; in this section.</p>
+
+    <h6>Level 6 :D</h6>
+    <p>And last but not least we have the level 6 using the following tags: &lsaquo;H6&rsaquo; and &lsaquo;/H6&rsaquo;
+    </p>
+
+    <hr />
+
+    <h1>&hearts; Paragraphs &hearts;</h1>
+    <p>A paragraph consists of one or more sentences that form a self contained unit of discourse. Everytime we need the
+        text to start on the next line (a new paragraph) we should write the tags: &lsaquo;p&rsaquo; and
+        &lsaquo;/p&rsaquo; and we are setting to start displaying the text in the following line. </p>
+
+    <hr />
+
+    <h1>&hearts; Bold and Italic &hearts;</h1>
+    <p>What if we want to have some characters appear bold? Easy peasy! Only by enclosing words in the tags
+        &lsaquo;b&rsaquo; and &lsaquo;/b&rsaquo; you will have something <b>like this :P</b></p>
+    <p>Okay, so now we can make characters appear italic :D Only by enclosing words in the tags &lsaquo;i&rsaquo; and
+        &lsaquo;/i&rsaquo; we will have <i> something like thissss </i> </p>
+    <P>PS! We can surely mix them! <b><i> Yeaaah! We'd need to write both tags and you're done ;)</i></b> </P>
+
+    <hr />
+
+    <h1>&hearts; Horizontal rules &hearts;</h1>
+    <p>Have you noticed the horizontal lines between the sections? You can have it only by using the tag &lsaquo;hr
+        /&rsaquo;</p>
+
+    <hr />
+
+    <h1>&hearts; Lists &hearts;</h1>
+    <h3>-Ordered Lists-</h3>
+    <p>If you want to create a orderd list we'll need the &lsaquo;ol&rsaquo; element. But each item in the list is
+        placed between the &lsaquo;li&rsaquo; and &lsaquo;/li&rsaquo; tags.</p>
+    <ol>
+        <li>Chocolate</li>
+        <li>Videogames</li>
+        <li>Pizza</li>
+        <li>Music</li>
+    </ol>
+    <p>Yeaaah! Those are the best things for me hahaha but what if I don't want to order them according to what I like
+        the most? Let's take a look at the next heading :P</p>
+
+    <h3>-Unordered Lists-</h3>
+    <p>Okay, so let's change the &lsaquo;ol&rsaquo; element for &lsaquo;ul&rsaquo; and keep the &lsaquo;li&rsaquo; and
+        &lsaquo;/li&rsaquo;elements.</p>
+    <ul>
+        <li>And you'll get this</li>
+        <li>It doesn't have any number</li>
+        <li>Only the -dot? :P</li>
+    </ul>
+
+    <h3>-Nested Lists-</h3>
+    <p>We have seen two types of lists (ordered and unoudered) but what if I want to have a list inside of another list?
+        :S Let's try the unordered tags: &lsaquo;ul&rsaquo; and &lsaquo;/ul&rsaquo; with the &lsaquo;li&rsaquo; and
+        &lsaquo;li&rsaquo; inside.</p>
+    <ul>
+        <li>We have the first here but I want another inside</li>
+        <li>So let's see what happens</li>
+        <ul>
+            <li>I followed the same process and this is what I got</li>
+            <li>A list nested on another one</li>
+        </ul>
+        <li>And we can come back to the first list :D</li>
+    </ul>
+
+    <hr />
+
+    <h1>&hearts; Links to other sites &hearts;</h1>
+    <p>Imagine you want to have a link inside of your page. Which one would it be nice to have here? Ummm, let's learn
+        first how to add it and you'll find out my choice :P. The links are created using the <b>&lsaquo;a&rsaquo;</b>
+        element which has an attribute called <b>href</b>. The value of the href attribute is the page that you want
+        people to go to when they click on the link. So the example would be like this:
+    <p>&lsaquo;a href="http://www.thelinkhere.com"&rsaquo; <i>the text you want to write for the url</i>
+        &lsaquo;/a&rsaquo;
+    </p>
+    <a href="https://herdingcode.com/">Check this link</a>
+    </p>
+    <p>You had to come back from the technology podcast site that I ended up choosing, huh? XD </p>
+    <p>So, if I want people to open the link in a new window, what should I need to do?! You can use the
+        target <i>attribute</i> on the opening &lsaquo;a&rsaquo; tag. The value of this attribute should be _blank.</p>
+
+    </p>
+    <a href="https://herdingcode.com/" target="_blank">Check this link now</a>
+    </p>
+
+    <hr />
+
+    <h1>&hearts; Images &hearts;</h1>
+    <p>This is getting boring, right? Too much text! Let's add some imagessss =D</p>
+    <p>To add an image into the page you need to use an &lsaquo;img&rsaquo; element. This is an empty element (which
+        means there is no closing tag). It must carry the following two attributes:</p>
+
+    <ul>
+        <li>src (this tells the browser where it can find the image file [url])</li>
+        <li>alt (this provides a text description of the image which describes the image file if you cannot see it)</li>
+    </ul>
+
+    <img src="https://tse3.mm.bing.net/th?id=OIP.z1aGZA76HtP9ZEO4vmU4xgHaEo&pid=Api&P=0" alt="A really cute puppy" />
+
+    <hr />
+
+    <h1>&hearts; Tables &hearts;</h1>
+    <p>The &lsaquo;table&rsaquo; element is used to create a table and the contents of the table are written out row by
+        row.</p>
+    <p>You indicate the start of each row using the opening tag <b>&lsaquo;tr&rsaquo;</b>. This should be followed by
+        one or more &lsaquo;td&rsaquo; elements (one for each cell in that row) But what is the &lsaquo;td&rsaquo;
+        element?!
+    </p>
+    <p>Each cell of a table is represented using a <b>&lsaquo;td&rsaquo;</b> element (The <i>td</i> stands for table
+        data.)</p>
+
+    <table>
+        <tr>
+            <td>123</td>
+            <td>456</td>
+            <td>789</td>
+        </tr>
+        <tr>
+            <td>789</td>
+            <td>456</td>
+            <td>123</td>
+        </tr>
+    </table>
+
+
+
+</body>
+
+</html>
